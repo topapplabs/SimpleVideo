@@ -25,8 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             print("Setting category to AVAudioSessionCategoryPlayback failed.")
         }
         
-//        let defaults = UserDefaults.standard
-//        defaults.set("https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_adv_example_hevc/master.m3u8", forKey: "streamUrl")
+        let defaults = UserDefaults.standard
+        defaults.set("https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_adv_example_hevc/master.m3u8", forKey: "streamUrl")
         
         return true
     }
